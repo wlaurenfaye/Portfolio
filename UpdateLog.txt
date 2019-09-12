@@ -1,0 +1,22 @@
+LAUREN F W -- UPDATE LOG
+
+12/09/2019: 
+Today I leanred how to input- 
+headings <h1> </h1>
+
+subheadings <h2> </h2>
+
+uncomment <!-- -->
+
+comment out <!--<h2>i am commenting out</h2>-->
+
+descriptive HTML tag <main> </main>
+
+add image <img src="https://www.your-image-source.com/your-image.jpg">
+
+external link anchors <a href="https://freecodecamp.org">this links to freecodecamo.org</a>
+
+internal link anchors with id attributes  <a href="#footer">Footer</a> <h2 id="footer">Footer<h2>
+
+
+
