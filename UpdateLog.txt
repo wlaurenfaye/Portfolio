@@ -1,6 +1,6 @@
 LAUREN F W -- UPDATE LOG
 
-12/09/2019: 
+12/09/2019 
 Today I leanred how to input- 
 headings <h1> </h1>
 
@@ -18,5 +18,22 @@ external link anchors <a href="https://freecodecamp.org">this links to freecodec
 
 internal link anchors with id attributes  <a href="#footer">Footer</a> <h2 id="footer">Footer<h2>
 
+13/09/2019
+Today I learned how to input-
+anchor element within a paragraph <p>View more <a target="_blank" href="http://freecatphotoapp.com"</a>cat photos</p>
+
+create dead links href="#"
+
+add links to photos <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+create unordered bullet lists <p> list of vegitals </p> <ul> <li>carrot </li> <li> lettuce </li> </ul>
+
+ordered lists <p> top 3 vegital </p> <ol> <li>pepr</li> <li>potat</li> <li>onion</li> </ol>
+
+text field <input type="text">
+
+placeholder text in field  <input type="text" placeholder= "cat photo URL">
+
+create a form element <form action=/submit-cat-photo><input type="text" placeholder="cat photo URL"></form>
 
 
