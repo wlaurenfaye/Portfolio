@@ -36,4 +36,27 @@ placeholder text in field  <input type="text" placeholder= "cat photo URL">
 
 create a form element <form action=/submit-cat-photo><input type="text" placeholder="cat photo URL"></form>
 
+15/09/2019
+Today I learned how to input-
+a submit button <button type= "submit"> Submit </button>
+
+require a field <input type="text" required>
+ 
+radio buttons <label>
+  <input type="radio" name="indoor-outdoor">Indoor
+</label> <label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+ 
+checkboxes
+<label>
+  <input type="radio" name="indoor-outdoor">Indoor
+</label> <label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+
+check boxes by default <label for= "personality"><input id"personality" type="checkbox" name="personality" checked >Personality </label> 
+
+nest element with div <div> </div>
+
 
