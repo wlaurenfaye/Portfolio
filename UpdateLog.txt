@@ -59,4 +59,33 @@ check boxes by default <label for= "personality"><input id"personality" type="ch
 
 nest element with div <div> </div>
 
+16/09/2019
+Today I learned how to input-
+declaration of doctype <!DOCTYPE html>
+
+define head and body <!DOCTYPE html> <html> <head> <title> this is a title </title> </head> 
+
+<body> <p> this is a sentance </p> </body> </html>
+ 
+-----STARTED CSS----------
+changed colour of text inline <h1 style= "color: blue;"> Im blue dabodibaboda </h1>
+
+use selectors to style elements <style>
+  h2 {color: red;}
+</style>
+
+use class to style a/multiple element <style> .green-text {color: green;} </style> <h1 class= "green-text"> Lauren Faye Williams </h1>
+ 
+change font size <style> h1 {font-size: 12px;} </style> 
+ 
+change font type <style> h1 {font-family:monospace;} </style>
+
+import font from google <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+ h1 {font-family:"Press Start 2P";}
+ 
+
+
+
+
+
 
