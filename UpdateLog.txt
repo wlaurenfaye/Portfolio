@@ -83,6 +83,23 @@ change font type <style> h1 {font-family:monospace;} </style>
 import font from google <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
  h1 {font-family:"Press Start 2P";}
  
+17/09/19
+Today I learned how to 
+
+Specify how fonts should degrade h1 {font-family: monospace, Lobster;}
+
+size images <style> .larger-image {width:50px;} </style>
+
+add borders to images <style> .thin-green-border {border-color: green; border-width: 5px; border-style: solid;}
+
+round corners of borders <style> .thin-green-border {border-color: green; border-width: 5px; border-style: solid; border-radius: 50px;} </style> can also be done as a % for circular borders eg 50% for perfect circle
+
+give elements backgrounds <style> .purple-background {background-color: purple;} </style> <div class="purple-background" </div>
+
+set an id attribute <h1 id= "cat-photo-form"> rrggqret </h1>
+
+use id to style single elements <style> #cat-photo-form {background-color: purple;} </style> <form id= "cat-photo-form"> einrfoibnf >/form>
+
 
 
 
