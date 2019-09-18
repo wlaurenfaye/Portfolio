@@ -100,8 +100,80 @@ set an id attribute <h1 id= "cat-photo-form"> rrggqret </h1>
 
 use id to style single elements <style> #cat-photo-form {background-color: purple;} </style> <form id= "cat-photo-form"> einrfoibnf >/form>
 
+18/09/19
+Today I learned how to 
+
+Change the padding of an element <style>  .blue-box {background-color: blue;
+color: #fff;
+ padding: 10px;
+} </style>
+
+Change the margins of each side of an element <style> .red-box {
+ background-color: crimson;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+ } </style>
 
 
+Ajust the margin of elements   <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  } </style>
+
+
+Add a negative margin to an element <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -20px;
+  } </style>
+
+
+Add padding to each side of an element <style>  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  } </style>
+
+
+Add margins to each side of an element <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  } </style>
+
+Use clockwise notion to specify the margin of each side of an element <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin: 20px 40px 20px 40px;
+  } </style>
+ ... padding = .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+  } </style>
+
+
+use attribute selectors to style elements [type="checkbox"] {margin: 20px 0px 20px 0px;} </style>
+
+absolute vs relative units absolut unists=mm/in relative units=em/rm
+
+style the HTML body element     <style> body {background-color: black;} </style>
+
+inherit styles from the body  <style> body {background-color: black; color-green; font-family: monospace;} </style>
+
+prioritize one style over another eg class   <style> .pink-text {color:pink;} </style> <h1 class="pink-text"> this is pink </h1>
 
 
 
