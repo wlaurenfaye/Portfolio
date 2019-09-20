@@ -181,7 +181,10 @@ indentation/parent-child
 expanded on margin/padding box theory
 how to text align 
 how to use a separate file for eg style code
-and general ellaboration on what i have already studies, deleted all style so i can re do it from scratch to ingrain what ive learned further 
+and general ellaboration on what i have already studies, deleted all style so i can re do it from scratch to ingrain what ive learned further
+
+20/09/19
+Started fixing style and indentation  
 
 
 

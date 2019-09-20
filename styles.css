@@ -1,7 +1,10 @@
 body {
-  background-color: red;
+  background-color: darksalmon;
 }
 
 .title {
   font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  color: darkolivegreen;
 }
