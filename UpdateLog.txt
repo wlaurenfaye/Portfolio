@@ -184,7 +184,10 @@ how to use a separate file for eg style code
 and general ellaboration on what i have already studies, deleted all style so i can re do it from scratch to ingrain what ive learned further
 
 20/09/19
-Started fixing style and indentation  
+Started fixing style and indentation 
+
+21/09/19
+More work on indentation, worked better on lists, struggling with indentation of the checkboxes. 
 
 
 
