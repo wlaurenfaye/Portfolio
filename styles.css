@@ -8,3 +8,42 @@ body {
   text-align: center;
   color: darkolivegreen;
 }
+#pic-of-me {
+  border-style: solid;
+  border-color: darkolivegreen;
+  border-radius: 50px;
+  border-width: 40px;
+  margin: 25px 450px 25px 450px;
+}
+
+#cat-pic {
+border-style: dotted;
+border-color: darkolivegreen;
+border-radius: 50px;
+border-width: 40px;
+margin: 25px 500px 25px 500px;
+
+}
+
+ .p {
+   border-style: dotted;
+   border-radius: 50px;
+   color: salmon;
+ }
+
+ #subtitle
+{
+  text-align: center;
+  font-size: 25px;
+  font-family: monospace;
+  color: darkolivegreen;
+
+}
+.main-text {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  color: darkolivegreen;
+
+
+}

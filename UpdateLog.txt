@@ -189,6 +189,9 @@ Started fixing style and indentation
 21/09/19
 More work on indentation, worked better on lists, struggling with indentation of the checkboxes. 
 
+23/09/19
+Added/experimented with borders/margin/padding for images, added styles for subtitle element,added style and text align to main text
+
 
 
 
