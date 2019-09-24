@@ -192,6 +192,13 @@ More work on indentation, worked better on lists, struggling with indentation of
 23/09/19
 Added/experimented with borders/margin/padding for images, added styles for subtitle element,added style and text align to main text
 
+24/09/19
+Fixed margin and padding on images
+list-style-type
+double indentation fixed?
+font experimentation
+began lists styling 
+
 
 
 

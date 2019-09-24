@@ -3,25 +3,28 @@ body {
 }
 
 .title {
-  font-family: monospace;
-  font-size: 50px;
+  font-family: fantasy;
+  font-size: 70px;
   text-align: center;
   color: darkolivegreen;
 }
 #pic-of-me {
-  border-style: solid;
+  border-style: dotted;
   border-color: darkolivegreen;
   border-radius: 50px;
-  border-width: 40px;
-  margin: 25px 450px 25px 450px;
+  border-width: 30px;
+  padding: 5px 5px 5px 5px;
+  margin: 25px 450px 25px 219px;
+
 }
 
 #cat-pic {
 border-style: dotted;
 border-color: darkolivegreen;
 border-radius: 50px;
-border-width: 40px;
+border-width: 30px;
 margin: 25px 500px 25px 500px;
+padding: 5px 5px 5px 5px;
 
 }
 
@@ -34,16 +37,31 @@ margin: 25px 500px 25px 500px;
  #subtitle
 {
   text-align: center;
-  font-size: 25px;
-  font-family: monospace;
+  font-size: 30px;
+  font-family: fantasy;
   color: darkolivegreen;
 
 }
 .main-text {
   text-align: center;
-  font-size: 20px;
-  font-family: monospace;
+  font-size: 25px;
+  font-family: fantasy;
   color: darkolivegreen;
+}
 
+#lists{
+  text-align: left;
+  color: darkolivegreen;
+  font-family: fantasy;
+  font size: 25px;
+
+}
+.ul {
+  list-style-image: url("star.png");
+
+}
+
+li {
+  margin: 10px 0px 0px 0px;
 
 }
