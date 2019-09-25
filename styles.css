@@ -3,7 +3,7 @@ body {
 }
 
 .title {
-  font-family: fantasy;
+  font-family: Avro;
   font-size: 70px;
   text-align: center;
   color: darkolivegreen;
@@ -14,7 +14,7 @@ body {
   border-radius: 50px;
   border-width: 30px;
   padding: 5px 5px 5px 5px;
-  margin: 25px 450px 25px 219px;
+  margin: 25px 450px 25px 265px;
 
 }
 
@@ -34,30 +34,43 @@ padding: 5px 5px 5px 5px;
    color: salmon;
  }
 
- #subtitle
+ #self-taught-se-text
 {
   text-align: center;
   font-size: 30px;
-  font-family: fantasy;
+  font-family: Avro;
   color: darkolivegreen;
-
 }
+
+
+.subtitle
+ {
+   font-family: Avro;
+   font-size: 50px;
+   text-align: center;
+   color: darkolivegreen;
+
+ }
+
 .main-text {
   text-align: center;
   font-size: 25px;
-  font-family: fantasy;
+  font-family: Avro;
   color: darkolivegreen;
 }
 
 #lists{
-  text-align: left;
+  text-align: center;
   color: darkolivegreen;
-  font-family: fantasy;
+  font-family: Avro;
   font size: 25px;
+  list-style-image: url("star.png");
+  padding: 50px 25px 25px 50px;
+  margin: 34px 480px 13px 423px;
 
 }
-.ul {
-  list-style-image: url("star.png");
+
+
 
 }
 

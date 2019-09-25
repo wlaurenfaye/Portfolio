@@ -198,7 +198,11 @@ list-style-type
 double indentation fixed?
 font experimentation
 began lists styling 
-
+17:22 25/09/2019
+Added padding and margin to lists
+imported font
+still trying to figure out list style type
+added another subtitle and its style 
 
 
 
