@@ -8,6 +8,7 @@ body {
   text-align: center;
   color: darkolivegreen;
 }
+
 #pic-of-me {
   border-style: dotted;
   border-color: darkolivegreen;
@@ -15,27 +16,24 @@ body {
   border-width: 30px;
   padding: 5px 5px 5px 5px;
   margin: 25px 450px 25px 265px;
-
 }
 
 #cat-pic {
-border-style: dotted;
-border-color: darkolivegreen;
-border-radius: 50px;
-border-width: 30px;
-margin: 25px 500px 25px 500px;
-padding: 5px 5px 5px 5px;
-
+  border-style: dotted;
+  border-color: darkolivegreen;
+  border-radius: 50px;
+  border-width: 30px;
+  margin: 25px 500px 25px 500px;
+  padding: 5px 5px 5px 5px;
 }
 
- .p {
+.p {
    border-style: dotted;
    border-radius: 50px;
    color: salmon;
  }
 
- #self-taught-se-text
-{
+#self-taught-se-text {
   text-align: center;
   font-size: 30px;
   font-family: Avro;
@@ -67,11 +65,6 @@ padding: 5px 5px 5px 5px;
   list-style-image: url("star.png");
   padding: 50px 25px 25px 50px;
   margin: 34px 480px 13px 423px;
-
-}
-
-
-
 }
 
 li {
