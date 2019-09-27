@@ -1,5 +1,10 @@
-body {
-  background-color: darksalmon;
+
+.lpbg {
+  background-image: url("lpbg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -62,12 +67,28 @@ body {
   color: darkolivegreen;
   font-family: Avro;
   font size: 25px;
-  list-style-image: url("star.png");
   padding: 50px 25px 25px 50px;
   margin: 34px 480px 13px 423px;
 }
 
 li {
   margin: 10px 0px 0px 0px;
+
+}
+#aboutMeSectionBackground {
+  background-image: url("aboutmebg.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ambg {
+  background-image: url("aboutmebg".jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 }

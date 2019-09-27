@@ -203,9 +203,16 @@ Added padding and margin to lists
 imported font
 still trying to figure out list style type
 added another subtitle and its style 
+
 18:32 26/09/2019
 Indentation sesh w Michelle, finally got it right (i hope)
 learned how to input list style type but doesnt work as png is too big, will figure out a better way of doing it to style the lists tomorrow.
+
+21:31 27/09/2019
+Experimented with background image
+Removed stoopid star bullet points
+Started adding separate pages 
+
 
 
 
