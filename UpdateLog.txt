@@ -16,7 +16,7 @@ add image <img src="https://www.your-image-source.com/your-image.jpg">
 
 external link anchors <a href="https://freecodecamp.org">this links to freecodecamo.org</a>
 
-internal link anchors with id attributes  <a href="#footer">Footer</a> <h2 id="footer">Footer<h2>
+internal link anchors with id attributes <a href="#footer">Footer</a> <h2 id="footer">Footer<h2>
 
 13/09/2019
 Today I learned how to input-
@@ -212,6 +212,10 @@ learned how to input list style type but doesnt work as png is too big, will fig
 Experimented with background image
 Removed stoopid star bullet points
 Started adding separate pages 
+
+14:10 28/09/2019
+Added separate about me page!
+Inputed prev about me page info to new separate page
 
 
 
