@@ -217,6 +217,11 @@ Started adding separate pages
 Added separate about me page!
 Inputed prev about me page info to new separate page
 
+19:31 30/09/2019
+Added nav bar to link to home and about me page
+Added link from landing page to about me page 
+Fixed issue which was breaking the style sheet 
+
 
 
 
