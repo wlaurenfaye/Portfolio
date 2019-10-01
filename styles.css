@@ -1,11 +1,4 @@
 
-.lpbg {
-  background-image: url("lpbg.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .title {
   font-family: Avro;
@@ -13,6 +6,11 @@
   text-align: center;
   color: darkolivegreen;
 }
+html {
+  background: url("home-bg.jpeg") no repeat center center fixed;
+  background-size: cover;
+}
+
 
 #pic-of-me {
   border-style: dotted;

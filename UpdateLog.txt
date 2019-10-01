@@ -222,6 +222,8 @@ Added nav bar to link to home and about me page
 Added link from landing page to about me page 
 Fixed issue which was breaking the style sheet 
 
+12:13 01/10/2019
+Tried to add background image to home page, cant figure it out >:(
 
 
 
