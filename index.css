@@ -1,14 +1,14 @@
-
-
 .title {
   font-family: Avro;
   font-size: 70px;
   text-align: center;
   color: darkolivegreen;
 }
-html {
-  background: url("home-bg.jpeg") no repeat center center fixed;
+
+body {
+  background: url("images/home-bg.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -72,7 +72,7 @@ html {
 }
 
 #aboutMeSectionBackground {
-  background-image: url("aboutmebg.jpg");
+  background-image: url("images/aboutmebg.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;

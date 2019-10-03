@@ -224,7 +224,9 @@ Fixed issue which was breaking the style sheet
 
 12:13 01/10/2019
 Tried to add background image to home page, cant figure it out >:(
-
+ 
+17:30 03/10/2019
+Session with Michelle, went over uni stuff and figured what i was doing wrong with adding background imaged out!
 
 
 
