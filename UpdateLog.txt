@@ -234,5 +234,12 @@ Experimenting with what kind of images look good for backgrounds
 Trying to get the GO nav link to centre text align 
 25 mins reading book
 
+19:06 06/10/2019
+Removed all un needed css classes on index style sheet
+Changed background image
+Experimented with different font styles and colors 
+
+
+
 
 

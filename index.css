@@ -1,89 +1,35 @@
 .title {
-  font-family: Avro;
+  font-family: Kalam;
   font-size: 70px;
-  text-align: center;
-  color: darkolivegreen;
+  text-align: right;
+  color: black;
+
 }
 
 body {
-  background: url("images/home-bg.jpg");
+  background: url("images/home-bg2.jpg");
   background-size: cover;
   background-position: center;
+  repeat: none;
+  position: relative;
 }
 
-
-#pic-of-me {
-  border-style: dotted;
-  border-color: darkolivegreen;
-  border-radius: 50px;
-  border-width: 30px;
-  padding: 5px 5px 5px 5px;
-  margin: 25px 450px 25px 265px;
-}
-
-#cat-pic {
-  border-style: dotted;
-  border-color: darkolivegreen;
-  border-radius: 50px;
-  border-width: 30px;
-  margin: 25px 500px 25px 500px;
-  padding: 5px 5px 5px 5px;
-}
-
-.p {
-   border-style: dotted;
-   border-radius: 50px;
-   color: salmon;
- }
 
 #self-taught-se-text {
-  text-align: center;
+  text-align: right;
   font-size: 30px;
-  font-family: Avro;
-  color: darkolivegreen;
+  font-family: Kalam;
+  color: black;
 }
 
-.subtitle
- {
-   font-family: Avro;
-   font-size: 50px;
-   text-align: center;
-   color: darkolivegreen;
- }
 
-.main-text {
-  text-align: center;
-  font-size: 25px;
-  font-family: Avro;
-  color: darkolivegreen;
-}
-
-#lists{
-  text-align: center;
-  color: darkolivegreen;
-  font-family: Avro;
-  font size: 25px;
-  padding: 50px 25px 25px 50px;
-  margin: 34px 480px 13px 423px;
-}
-
-.li {
-  margin: 10px 0px 0px 0px;
-}
-
-#aboutMeSectionBackground {
-  background-image: url("images/aboutmebg.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 #goLink {
-  text-align: center;
-  color: white;
-  font-family: Avro;
+  text-align: right;
+  color: black;
+  font-family: Kalam;
   font-size: 50px;
+  padding-left: 1500px;
 }
 
 
