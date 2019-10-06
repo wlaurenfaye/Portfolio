@@ -237,7 +237,8 @@ Trying to get the GO nav link to centre text align
 19:06 06/10/2019
 Removed all un needed css classes on index style sheet
 Changed background image
-Experimented with different font styles and colors 
+Experimented with different font styles and colors
+Figured out how to align go link
 
 
 
