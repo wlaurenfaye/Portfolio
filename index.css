@@ -1,5 +1,5 @@
 .title {
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 70px;
   text-align: right;
   color: black;
@@ -16,21 +16,14 @@ body {
 #self-taught-se-text {
   text-align: right;
   font-size: 30px;
-  font-family: Kalam;
+  font-family: Montserrat;
   color: black;
 }
 
 #goLink {
   text-align: right;
   color: black;
-  font-family: Kalam;
+  font-family: Montserrat;
   font-size: 50px;
   padding-left: 1500px;
-}
-
-
-
-}
-
-
 }

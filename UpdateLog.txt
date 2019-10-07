@@ -240,6 +240,10 @@ Changed background image
 Experimented with different font styles and colors
 Figured out how to align go link
 
+18:00 07/10/2019
+Learned about styling for navigation bars and added styling to navbar on about me page
+Chose clearer font
+Read through text/boxes chapter in book
 
 
 
