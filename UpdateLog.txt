@@ -244,6 +244,9 @@ Figured out how to align go link
 Learned about styling for navigation bars and added styling to navbar on about me page
 Chose clearer font
 Read through text/boxes chapter in book
+19:54 08/10/2019
+Learned how to do split background with image/color
+Attempted to add gradient to color but not working 
 
 
 
