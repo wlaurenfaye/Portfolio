@@ -248,6 +248,11 @@ Read through text/boxes chapter in book
 Learned how to do split background with image/color
 Attempted to add gradient to color but not working 
 
+21:10 10/10/2019
+Learned how to create box and text shadows in css
+Applied text shadows to home and about me page
+
+
 
 
 
