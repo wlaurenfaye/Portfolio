@@ -252,6 +252,12 @@ Attempted to add gradient to color but not working
 Learned how to create box and text shadows in css
 Applied text shadows to home and about me page
 
+13:26 13/10/2019
+Learned about opacity
+New simpler styling for landing page
+
+
+
 
 
 
