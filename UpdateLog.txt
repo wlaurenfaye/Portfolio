@@ -256,6 +256,10 @@ Applied text shadows to home and about me page
 Learned about opacity
 New simpler styling for landing page
 
+18:32 14/10/2019
+centered the go link on landing page
+restyling of about me page
+
 
 
 

@@ -1,30 +1,30 @@
 body {
-  background: url("images/aboutmebg.jpg"), hotpink;
-  background-size: 50%, 100%;
-  background-position: left top, right top;
-  background-repeat: no-repeat, no-repeat;
+  background: darkkhaki;
+  background-size: 100%;
+  background-repeat: no-repeat;
   overflow: none;
 }
 
 .main-text {
-    text-align: right;
+    text-align: center;
     font-size: 25px;
-    font-family: Montserrat;
+    font-family: Rubik;
     color: #333;
     text-shadow: 2px 2px 5px white;
+    color: darkolivegreen;
   }
 
   .title {
-    font-family: Montserrat;
+    font-family: Rubik;
     font-size: 70px;
-    text-align: right;
-    color: #333;
+    text-align: center;
+    color: darkolivegreen;
     text-shadow: 5px 5px 10px white;
   }
 
   ul {
     font-size: 35px;
-    font-family: Montserrat;
+    font-family: Rubik;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,5 +45,19 @@ body {
   }
 
   li a:hover {
-    background-color: hotpink;
+    background-color: darkolivegreen;
   }
+
+#pic-of-me {
+  width: 300px ;
+  border-radius: 50%;
+}
+
+#pic-of-trees {
+  width:260px;
+  padding: 5px 0px 5px 410px;
+}
+#pic-of-trees2 {
+  width:260px;
+
+}

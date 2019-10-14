@@ -1,9 +1,9 @@
 .title {
-  font-family: Montserrat;
+  font-family: Rubik;
   font-size: 70px;
   text-align: center;
   color: darkolivegreen;
-  text-shadow: 1px 1px 2px sandybrown, 0px 0px 10px brown;
+  text-shadow: 1px 1px 4px black;
   padding: 331px 459px 36px;
 }
 
@@ -18,14 +18,16 @@ body {
 #self-taught-se-text {
   text-align: center;
   font-size: 30px;
-  font-family: Montserrat;
+  font-family: Rubik;
   color: darkolivegreen;
-  text-shadow: 1px 1px 2px sandybrown, 0px 0px 10px brown;
+  text-shadow: 1px 1px 4px black;
 }
 
 #goLink {
-  text-align: center;
+  align: center;
   color: darkolivegreen;
-  font-family: Montserrat;
+  font-family: Rubik;
   font-size: 50px;
+  padding: 5px 582px 25px 770px;
+  text-shadow: 1px 1px 4px black;
 }
