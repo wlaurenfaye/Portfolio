@@ -260,6 +260,16 @@ New simpler styling for landing page
 centered the go link on landing page
 restyling of about me page
 
+18:53 15/10/2019
+Michelle sesh:
+Div elements/sections 
+how to apply div to background (empty div element+width:100%,height100% in css)
+*= apply to everything 
+z-index: positioning 
+using margin instead of padding for positioning of text
+position: absolute
+
+
 
 
 
