@@ -269,6 +269,9 @@ z-index: positioning
 using margin instead of padding for positioning of text
 position: absolute
 
+16:33 16/10/2019
+Reapplied background and styling with divs as learned yday to landingPage
+Added styling to goLink to remove underline and add background color
 
 
 

@@ -9,6 +9,7 @@
 
 body {
   overflow: hidden;
+  background-color: #333;
 }
 
 
@@ -25,30 +26,40 @@ body {
   width: 100%;
   background: url(images/home-bg4.jpg);
   position: absolute;
+  z-index: -1;
+  display: block;
+  background-size: contain;
+  opacity: 0.5;
+
 }
 
 #header {
   font-family: Rubik;
   font-size: 70px;
   text-align: center;
-  color: darkolivegreen;
-  text-shadow: 1px 1px 4px black;
-  padding: 331px 459px 36px;
+  color: blanchedalmond;
+  text-shadow: 1px 1px 6px saddlebrown;
+  margin: 25rem auto auto auto;
 }
 
 #self-taught-se-text {
   text-align: center;
   font-size: 30px;
   font-family: Rubik;
-  color: darkolivegreen;
-  text-shadow: 1px 1px 4px black;
+  color: blanchedalmond;
+  text-shadow: 1px 1px 4px saddlebrown;
+  margin: auto;
+  padding: 50px 50px 50px 50px;
 }
 
 #goLink {
-  align: center;
-  color: darkolivegreen;
+  text-align: center;
+  color: blanchedalmond;
   font-family: Rubik;
   font-size: 50px;
-  padding: 5px 582px 25px 770px;
-  text-shadow: 1px 1px 4px black;
+  text-shadow: 1px 1px 4px saddlebrown;
+  margin: auto 50rem auto 50rem;
+  background-color: saddlebrown;
+  text-decoration: none;
+
 }
