@@ -273,6 +273,11 @@ position: absolute
 Reapplied background and styling with divs as learned yday to landingPage
 Added styling to goLink to remove underline and add background color
 
+19:14 17/10/2019 
+centered go link 
+re applied styling with div to aboutMe page
+s
+
 
 
 

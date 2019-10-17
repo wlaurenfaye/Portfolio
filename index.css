@@ -37,8 +37,8 @@ body {
   font-family: Rubik;
   font-size: 70px;
   text-align: center;
-  color: blanchedalmond;
-  text-shadow: 1px 1px 6px saddlebrown;
+  color: white;
+  text-shadow: 1px 1px 8px #333;
   margin: 25rem auto auto auto;
 }
 
@@ -46,20 +46,21 @@ body {
   text-align: center;
   font-size: 30px;
   font-family: Rubik;
-  color: blanchedalmond;
-  text-shadow: 1px 1px 4px saddlebrown;
+  color: white;
+  text-shadow: 1px 1px 6px #333;
   margin: auto;
   padding: 50px 50px 50px 50px;
 }
 
 #goLink {
   text-align: center;
-  color: blanchedalmond;
+  color: white;
   font-family: Rubik;
   font-size: 50px;
-  text-shadow: 1px 1px 4px saddlebrown;
-  margin: auto 50rem auto 50rem;
-  background-color: saddlebrown;
+  text-shadow: 1px 1px 4px black;
+  margin: auto 55rem  auto;
+  background-color: #333;
   text-decoration: none;
+
 
 }
