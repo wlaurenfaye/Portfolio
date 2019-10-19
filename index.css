@@ -53,14 +53,16 @@ body {
 }
 
 #goLink {
-  text-align: center;
   color: white;
   font-family: Rubik;
   font-size: 50px;
   text-shadow: 1px 1px 4px black;
   margin: auto 55rem  auto;
-  background-color: #333;
   text-decoration: none;
+  position: absolute;
+  display: block;
+}
 
-
+#goLink:hover {
+  background-color: #333;
 }

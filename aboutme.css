@@ -17,8 +17,9 @@
   position: absolute;
   z-index: -5;
   display: block;
-  background-size: contain;
+  background-size: cover;
   opacity: 0.5;
+
 }
 
   ul {
@@ -49,7 +50,7 @@
 
   .title {
     font-family: Rubik;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     color: white;
     text-shadow: 5px 5px 10px #333;
@@ -64,11 +65,15 @@
 
   .main-text {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Rubik;
     color: white;
     text-shadow: 1px 1px 4px #333;
     margin: auto;
     padding: 50px 50px 50px 50px;
+    position: absolute;
+    top: 300px;
+    left: 179px;
+    width: 450px;
 
     }
