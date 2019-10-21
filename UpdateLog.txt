@@ -282,7 +282,12 @@ Added hover element to go link
 Fixed about me bkgd positioning issue
 Read about different kinds of positioning in CSS book and played around with it with my text on about me page
 
-
+18:22 21/10/2019
+Session with Michelle:
+How to use span
+Plans for future projects
+How to make testing backgrounds easier 
+Tutorials to follow
 
 
 

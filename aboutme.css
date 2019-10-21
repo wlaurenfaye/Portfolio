@@ -13,11 +13,12 @@
   #bkgdAboutMePage {
   height: 100%;
   width: 100%;
-  background: url(images/aboutmeBkgd.jpg);
+  background: url(images/test/1.jpg);
   position: absolute;
   z-index: -5;
   display: block;
   background-size: cover;
+  background-position: center;
   opacity: 0.5;
 
 }
