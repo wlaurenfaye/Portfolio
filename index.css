@@ -9,7 +9,7 @@
 
 body {
   overflow: hidden;
-  background-color: #333;
+  background-color: #111;
 }
 
 
@@ -20,7 +20,7 @@ body {
   position: absolute;
 
 }
-
+/*
 #bkgdLandingPage {
   height: 100%;
   width: 100%;
@@ -32,26 +32,26 @@ body {
   opacity: 0.5;
 
 }
+*/
 
 #header {
-  font-family: Rubik;
+  font-family: Barlow, sans-serif;
   font-size: 70px;
-  text-align: center;
+  text-align: left;
   color: white;
   text-shadow: 1px 1px 8px #333;
-  margin: 25rem auto auto auto;
+  margin: 20rem auto auto auto;
 }
 
 #self-taught-se-text {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
-  font-family: Rubik;
+  font-family: Barlow, sans-serif;
   color: white;
   text-shadow: 1px 1px 6px #333;
-  margin: auto;
-  padding: 50px 50px 50px 50px;
+  padding-top:20px;
 }
-
+/*
 #goLink {
   color: white;
   font-family: Rubik;
@@ -63,6 +63,33 @@ body {
   display: block;
 }
 
+
 #goLink:hover {
   background-color: #333;
+}
+*/
+ul {
+font-size: 25px;
+font-family:Barlow, sans-serif;
+list-style-type: none;
+overflow: hidden;
+color: white;
+text-decoration: none;
+margin-top: 0px;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: darkolivegreen;
 }

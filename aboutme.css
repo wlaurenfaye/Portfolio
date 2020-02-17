@@ -7,13 +7,13 @@
 
   body {
   overflow:  hidden;
-  background-color: #333;
+  background-color: #111;
 }
 
   #bkgdAboutMePage {
   height: 100%;
   width: 100%;
-  background: url(images/test/1.jpg);
+/*  background: url(images/test/1.jpg); */
   position: absolute;
   z-index: -5;
   display: block;
@@ -24,13 +24,13 @@
 }
 
   ul {
-  font-size: 35px;
-  font-family: Rubik;
+  font-size: 25px;
+  font-family: Barlow, sans-serif;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: #333;
+  color: white;
+  text-decoration: none;
+  margin-top: 0px;
 }
 
   li {
@@ -50,7 +50,7 @@
 }
 
   .title {
-    font-family: Rubik;
+    font-family: Barlow, sans-serif;
     font-size: 60px;
     text-align: center;
     color: white;
@@ -60,14 +60,15 @@
   #pic-of-me {
     width: 300px ;
     border-radius: 50%;
-    margin: auto 50rem;
+    align-content: center;
+    padding-top:20px;
     position: relative;
   }
 
   .main-text {
     text-align: center;
     font-size: 25px;
-    font-family: Rubik;
+    font-family: Barlow, sans-serif;
     color: white;
     text-shadow: 1px 1px 4px #333;
     margin: auto;
