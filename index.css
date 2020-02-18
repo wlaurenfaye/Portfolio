@@ -10,6 +10,11 @@
 body {
   overflow: hidden;
   background-color: #111;
+  background-image: url("images/liverbuilding.jpg");
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-bottom:645px;
 }
 
 
@@ -43,12 +48,12 @@ body {
   margin: 20rem auto auto auto;
 }
 
-#self-taught-se-text {
+#text {
   text-align: left;
   font-size: 30px;
   font-family: Barlow, sans-serif;
   color: white;
-  text-shadow: 1px 1px 6px #333;
+  text-shadow: 1px 1px 6px c;
   padding-top:20px;
 }
 /*
@@ -69,7 +74,7 @@ body {
 }
 */
 ul {
-font-size: 25px;
+font-size: 20px;
 font-family:Barlow, sans-serif;
 list-style-type: none;
 overflow: hidden;
@@ -92,4 +97,18 @@ text-decoration: none;
 
 li a:hover {
 background-color: darkolivegreen;
+}
+
+ #creditLink {
+  color:white;
+  text-decoration: none;
+  font-family:Barlow, sans-serif;
+  font-size:20px;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px;
+  padding-left: 1000px;
+  text-align:right;
+  padding-top: 391px;
+
 }

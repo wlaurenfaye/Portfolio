@@ -1,0 +1,363 @@
+LAUREN F W -- UPDATE LOG
+
+12/09/2019 
+Today I leanred how to input- 
+headings <h1> </h1>
+
+subheadings <h2> </h2>
+
+uncomment <!-- -->
+
+comment out <!--<h2>i am commenting out</h2>-->
+
+descriptive HTML tag <main> </main>
+
+add image <img src="https://www.your-image-source.com/your-image.jpg">
+
+external link anchors <a href="https://freecodecamp.org">this links to freecodecamo.org</a>
+
+internal link anchors with id attributes <a href="#footer">Footer</a> <h2 id="footer">Footer<h2>
+
+13/09/2019
+Today I learned how to input-
+anchor element within a paragraph <p>View more <a target="_blank" href="http://freecatphotoapp.com"</a>cat photos</p>
+
+create dead links href="#"
+
+add links to photos <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+create unordered bullet lists <p> list of vegitals </p> <ul> <li>carrot </li> <li> lettuce </li> </ul>
+
+ordered lists <p> top 3 vegital </p> <ol> <li>pepr</li> <li>potat</li> <li>onion</li> </ol>
+
+text field <input type="text">
+
+placeholder text in field  <input type="text" placeholder= "cat photo URL">
+
+create a form element <form action=/submit-cat-photo><input type="text" placeholder="cat photo URL"></form>
+
+15/09/2019
+Today I learned how to input-
+a submit button <button type= "submit"> Submit </button>
+
+require a field <input type="text" required>
+ 
+radio buttons <label>
+  <input type="radio" name="indoor-outdoor">Indoor
+</label> <label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+ 
+checkboxes
+<label>
+  <input type="radio" name="indoor-outdoor">Indoor
+</label> <label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+
+check boxes by default <label for= "personality"><input id"personality" type="checkbox" name="personality" checked >Personality </label> 
+
+nest element with div <div> </div>
+
+16/09/2019
+Today I learned how to input-
+declaration of doctype <!DOCTYPE html>
+
+define head and body <!DOCTYPE html> <html> <head> <title> this is a title </title> </head> 
+
+<body> <p> this is a sentance </p> </body> </html>
+ 
+-----STARTED CSS----------
+changed colour of text inline <h1 style= "color: blue;"> Im blue dabodibaboda </h1>
+
+use selectors to style elements <style>
+  h2 {color: red;}
+</style>
+
+use class to style a/multiple element <style> .green-text {color: green;} </style> <h1 class= "green-text"> Lauren Faye Williams </h1>
+ 
+change font size <style> h1 {font-size: 12px;} </style> 
+ 
+change font type <style> h1 {font-family:monospace;} </style>
+
+import font from google <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+ h1 {font-family:"Press Start 2P";}
+ 
+17/09/19
+Today I learned how to 
+
+Specify how fonts should degrade h1 {font-family: monospace, Lobster;}
+
+size images <style> .larger-image {width:50px;} </style>
+
+add borders to images <style> .thin-green-border {border-color: green; border-width: 5px; border-style: solid;}
+
+round corners of borders <style> .thin-green-border {border-color: green; border-width: 5px; border-style: solid; border-radius: 50px;} </style> can also be done as a % for circular borders eg 50% for perfect circle
+
+give elements backgrounds <style> .purple-background {background-color: purple;} </style> <div class="purple-background" </div>
+
+set an id attribute <h1 id= "cat-photo-form"> rrggqret </h1>
+
+use id to style single elements <style> #cat-photo-form {background-color: purple;} </style> <form id= "cat-photo-form"> einrfoibnf >/form>
+
+18/09/19
+Today I learned how to 
+
+Change the padding of an element <style>  .blue-box {background-color: blue;
+color: #fff;
+ padding: 10px;
+} </style>
+
+Change the margins of each side of an element <style> .red-box {
+ background-color: crimson;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+ } </style>
+
+
+Ajust the margin of elements   <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  } </style>
+
+
+Add a negative margin to an element <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -20px;
+  } </style>
+
+
+Add padding to each side of an element <style>  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  } </style>
+
+
+Add margins to each side of an element <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  } </style>
+
+Use clockwise notion to specify the margin of each side of an element <style> .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin: 20px 40px 20px 40px;
+  } </style>
+ ... padding = .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+  } </style>
+
+
+use attribute selectors to style elements [type="checkbox"] {margin: 20px 0px 20px 0px;} </style>
+
+absolute vs relative units absolut unists=mm/in relative units=em/rm
+
+style the HTML body element     <style> body {background-color: black;} </style>
+
+inherit styles from the body  <style> body {background-color: black; color-green; font-family: monospace;} </style>
+
+prioritize one style over another eg class   <style> .pink-text {color:pink;} </style> <h1 class="pink-text"> this is pink </h1>
+
+19/09/19 
+Today was a sesh with Michelle, learned importance of 
+indentation/parent-child
+expanded on margin/padding box theory
+how to text align 
+how to use a separate file for eg style code
+and general ellaboration on what i have already studies, deleted all style so i can re do it from scratch to ingrain what ive learned further
+
+20/09/19
+Started fixing style and indentation 
+
+21/09/19
+More work on indentation, worked better on lists, struggling with indentation of the checkboxes. 
+
+23/09/19
+Added/experimented with borders/margin/padding for images, added styles for subtitle element,added style and text align to main text
+
+24/09/19
+Fixed margin and padding on images
+list-style-type
+double indentation fixed?
+font experimentation
+began lists styling 
+17:22 25/09/2019
+Added padding and margin to lists
+imported font
+still trying to figure out list style type
+added another subtitle and its style 
+
+18:32 26/09/2019
+Indentation sesh w Michelle, finally got it right (i hope)
+learned how to input list style type but doesnt work as png is too big, will figure out a better way of doing it to style the lists tomorrow.
+
+21:31 27/09/2019
+Experimented with background image
+Removed stoopid star bullet points
+Started adding separate pages 
+
+14:10 28/09/2019
+Added separate about me page!
+Inputed prev about me page info to new separate page
+
+19:31 30/09/2019
+Added nav bar to link to home and about me page
+Added link from landing page to about me page 
+Fixed issue which was breaking the style sheet 
+
+12:13 01/10/2019
+Tried to add background image to home page, cant figure it out >:(
+ 
+17:30 03/10/2019
+Session with Michelle, went over uni stuff and figured what i was doing wrong with adding background imaged out!
+
+19:24 04/10/2019
+Added classes etc to new page style sheet 
+Experimenting with what kind of images look good for backgrounds
+Trying to get the GO nav link to centre text align 
+25 mins reading book
+
+19:06 06/10/2019
+Removed all un needed css classes on index style sheet
+Changed background image
+Experimented with different font styles and colors
+Figured out how to align go link
+
+18:00 07/10/2019
+Learned about styling for navigation bars and added styling to navbar on about me page
+Chose clearer font
+Read through text/boxes chapter in book
+19:54 08/10/2019
+Learned how to do split background with image/color
+Attempted to add gradient to color but not working 
+
+21:10 10/10/2019
+Learned how to create box and text shadows in css
+Applied text shadows to home and about me page
+
+13:26 13/10/2019
+Learned about opacity
+New simpler styling for landing page
+
+18:32 14/10/2019
+centered the go link on landing page
+restyling of about me page
+
+18:53 15/10/2019
+Michelle sesh:
+Div elements/sections 
+how to apply div to background (empty div element+width:100%,height100% in css)
+*= apply to everything 
+z-index: positioning 
+using margin instead of padding for positioning of text
+position: absolute
+
+16:33 16/10/2019
+Reapplied background and styling with divs as learned yday to landingPage
+Added styling to goLink to remove underline and add background color
+
+19:14 17/10/2019 
+centered go link 
+re applied styling with div to aboutMe page
+
+19:21 19/10/2019
+Added hover element to go link
+Fixed about me bkgd positioning issue
+Read about different kinds of positioning in CSS book and played around with it with my text on about me page
+
+18:22 21/10/2019
+Session with Michelle:
+How to use span
+Plans for future projects
+How to make testing backgrounds easier 
+Tutorials to follow
+
+17:34 28/10/2019
+Today I started a new project unti I have genuine content for my portfolio, new project is a website about Korea
+Created the HTML and CSS files for project and inputed necesary starting code
+Researched into web design ideas for it, thinking of having a responsive scrolling site for this project
+
+21:00 20/11/2019
+Started grid layout tutorial for Korea project https://www.youtube.com/watch?v=jV8B24rSN5o 8.17
+
+15:37 21/11/2019
+continued grid layout tutorial : 15:49
+
+19:03 26/11/2019
+played around with inserting images to grid and adjusting proportions 
+
+22:25 28/11/2019
+layout concept tried out 
+to figure out: how to ensure photos fill element in grid while staying inline and how to keep the text within the nested border
+
+17:01 21/01/2020
+New year new design :*
+Trying a new scrollable design which goes into a grid layout from a solid fill background 
+
+19:49 23/01/2020 
+Landing page styled, links not added yet
+
+12:06 24/01/2020
+https://www.youtube.com/watch?v=y9nlfqT4s9s
+adding smooth scroll, trying to separate pages from landing page but keep grid??
+
+13:35 25/01/2020
+Managed to get pages separate, need to get rid of margin above landing page and fix top grid title/photo spacing
+
+21:23 28/01/2020
+spacing fixed but creating new outer grid to position separate pages with a container and child elements
+https://css-tricks.com/practical-css-scroll-snapping/
+
+13:30 29/01/2020
+snap scroll not working, fixed background as scrolling, need to fix spacing on images
+ and add relevent geography images  
+
+14:59 31/01/2020
+fixedspacing on images and removed grid for subtitle divs but now the grid for the text is messed up?
+
+18:45 03/02/2020
+grid text fixed, eliminated image stretching for text div length
+
+21:14 04/02/2020
+added nav bar, want to make it a sticky one to all pages 
+
+21:01 05/02/2020
+Started basic external javascript for nav bar 
+
+16:09 06/02/2020
+More read up of js, cant get it to work with my navBar, https://github.com/mickadamouse1/Portfolio/blob/master/js/index.js micheals js for portfolio, might just start from the begining of a tutorial?
+https://www.youtube.com/watch?v=uDAyHncCfqQ
+
+18:25 07/02/2020
+Read about and practiced using <transform> and <transition> tags on img divs
+
+21:18 10/02/2020
+adding more photos, need to change the grid 
+
+17:39 11/02/2020 
+fitting more images to the grid, adjusting fr and deciding if to have images share a div or not  
+
+18:59 12/02/2020
+managed to get three photos to fit on first collum but cant for the right???
+
+17/02/2020 &
+12:00 18/02/2020:
+Working on my portfolio content, new cleaner and more simple design
+
