@@ -4,7 +4,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+
 }
 
 body {
@@ -14,7 +14,10 @@ body {
   background-size: 50%;
   background-position: right;
   background-repeat: no-repeat;
-  padding-bottom:645px;
+
+
+
+
 }
 
 
@@ -105,10 +108,10 @@ background-color: darkolivegreen;
   font-family:Barlow, sans-serif;
   font-size:20px;
   line-height:1.2;
-  display:inline-block;
+  display: table-caption;
   border-radius:3px;
-  padding-left: 1000px;
+  padding-left: 60rem;
   text-align:right;
-  padding-top: 391px;
-
+  padding-top: 9rem;
+  margin-top: 42rem;
 }
