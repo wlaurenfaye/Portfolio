@@ -10,18 +10,7 @@
   background-color: #111;
 }
 
-  #bkgdAboutMePage {
-  height: 100%;
-  width: 100%;
-/*  background: url(images/test/1.jpg); */
-  position: absolute;
-  z-index: -5;
-  display: block;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
 
-}
 
   ul {
   font-size: 25px;
@@ -59,9 +48,9 @@
 
   #pic-of-me {
     width: 300px ;
-    border-radius: 50%;
+
     align-content: center;
-    padding-top:20px;
+
     position: relative;
   }
 
@@ -70,12 +59,21 @@
     font-size: 25px;
     font-family: Barlow, sans-serif;
     color: white;
-    text-shadow: 1px 1px 4px #333;
-    margin: auto;
-    padding: 50px 50px 50px 50px;
-    position: absolute;
-    top: 300px;
-    left: 179px;
-    width: 450px;
 
     }
+    .col-1 {
+      width: 33.3%;
+    }
+    .col-2 {
+      width: 66.6%;
+    }
+    .col-3 {
+      width: 100%;
+    }
+
+    /* applies to all colums */
+    [class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
