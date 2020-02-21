@@ -365,3 +365,6 @@ Working on my portfolio content, new cleaner and more simple design
 tried adding higher opacity to half background image but cant >:(
 11:00 20/02/2020
 added basic design to all pages, working on a responsive grid format for content https://www.w3schools.com/css/css_rwd_grid.asp
+
+16:22 21/02/2020
+fixed links to shorter href, eliminated unecessary IDs for classes, created grid with more collums 
