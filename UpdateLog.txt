@@ -367,4 +367,7 @@ tried adding higher opacity to half background image but cant >:(
 added basic design to all pages, working on a responsive grid format for content https://www.w3schools.com/css/css_rwd_grid.asp
 
 16:22 21/02/2020
-fixed links to shorter href, eliminated unecessary IDs for classes, created grid with more collums 
+fixed links to shorter href, eliminated unecessary IDs for classes, created grid with more collums
+12:30 24/02/2020
+adding slideshow, ncaught ReferenceError: currentSlide is not defined
+    at HTMLSpanElement.onclick (aboutme.html:64) 
