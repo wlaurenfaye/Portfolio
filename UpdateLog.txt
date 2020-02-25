@@ -371,3 +371,6 @@ fixed links to shorter href, eliminated unecessary IDs for classes, created grid
 12:30 24/02/2020
 adding slideshow, ncaught ReferenceError: currentSlide is not defined
     at HTMLSpanElement.onclick (aboutme.html:64) 
+
+20:13 25/02/2020
+managed to do internal js for automatic slideshow, fixing grid to look nice
