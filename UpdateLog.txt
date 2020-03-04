@@ -374,3 +374,6 @@ adding slideshow, ncaught ReferenceError: currentSlide is not defined
 
 20:13 25/02/2020
 managed to do internal js for automatic slideshow, fixing grid to look nice
+
+18:54 04/03/2020
+design work, maybe add colour to text? 
