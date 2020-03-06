@@ -379,3 +379,6 @@ managed to do internal js for automatic slideshow, fixing grid to look nice
 design work, maybe add colour to text? 
 12:34 05/03/2020
 found a cv page template i want to use but restyle and get rid of some parts for wht ive got already
+
+15:27 06/03/2020 
+editing cv page template
