@@ -8,17 +8,36 @@
 }
 
 body {
-  overflow: hidden;
+
   background-color: #111;
-  background-image: url("images/liverbuilding.jpg");
-  background-size: 50%;
-  background-position: right;
   background-repeat: no-repeat;
 
 
 
 
 }
+
+header {
+  background-color: #999;
+  background-image: url(images/window.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  height: 500px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
 
 
 
@@ -48,7 +67,6 @@ body {
   text-align: left;
   color: white;
 
-  margin: 20rem auto auto auto;
 }
 
 #text {
@@ -84,6 +102,11 @@ overflow: hidden;
 color: white;
 text-decoration: none;
 margin-top: 0px;
+}
+@media screen and (max-width: 800px) {
+  ul, li, li a {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 
 li {

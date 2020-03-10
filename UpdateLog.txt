@@ -385,3 +385,6 @@ editing cv page template
 
 14:49 09/03/2020
 CV page almost done just need to add own illustrations and conclusion!
+
+20:33 10/03/2020 
+learning about responsivity, added partially to index page

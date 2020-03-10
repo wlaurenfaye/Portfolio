@@ -321,3 +321,26 @@ footer hr {
   }
 
 }
+#navBar {
+font-size: 25px;
+font-family: Barlow, sans-serif;
+list-style-type: none;
+overflow: hidden;
+color: white;
+text-decoration: none;
+margin-top: 0px;
+
+float: left;
+}
+
+#navBar a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+#navBar a:hover {
+background-color: darkolivegreen;
+}
