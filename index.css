@@ -40,26 +40,13 @@ header {
 
 
 
-
 #landingPageSection {
   width: 100%;
   height: 100%;
   position: absolute;
 
 }
-/*
-#bkgdLandingPage {
-  height: 100%;
-  width: 100%;
-  background: url(images/home-bg4.jpg);
-  position: absolute;
-  z-index: -1;
-  display: block;
-  background-size: contain;
-  opacity: 0.5;
 
-}
-*/
 
 #header {
   font-family: Barlow, sans-serif;
@@ -69,6 +56,7 @@ header {
 
 }
 
+
 #text {
   text-align: left;
   font-size: 30px;
@@ -77,23 +65,7 @@ header {
 
   padding-top:20px;
 }
-/*
-#goLink {
-  color: white;
-  font-family: Rubik;
-  font-size: 50px;
-  text-shadow: 1px 1px 4px black;
-  margin: auto 55rem  auto;
-  text-decoration: none;
-  position: absolute;
-  display: block;
-}
 
-
-#goLink:hover {
-  background-color: #333;
-}
-*/
 ul {
 font-size: 20px;
 font-family:Barlow, sans-serif;
@@ -125,16 +97,4 @@ li a:hover {
 background-color: darkolivegreen;
 }
 
- #creditLink {
-  color:white;
-  text-decoration: none;
-  font-family:Barlow, sans-serif;
-  font-size:20px;
-  line-height:1.2;
-  display: table-caption;
-  border-radius:3px;
-  padding-left: 60rem;
-  text-align:right;
-  padding-top: 9rem;
-  margin-top: 42rem;
-}
+ 

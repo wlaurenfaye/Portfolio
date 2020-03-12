@@ -388,3 +388,6 @@ CV page almost done just need to add own illustrations and conclusion!
 
 20:33 10/03/2020 
 learning about responsivity, added partially to index page
+
+14:59 12/03/2020
+Figured out how "@media and ()" worked more, got the responsivity to be the same on the index and cv page, cv page complete and eliminated unecessary code on both cv and index page!
