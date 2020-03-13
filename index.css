@@ -48,27 +48,27 @@ header {
 }
 
 
-#header {
-  font-family: Barlow, sans-serif;
-  font-size: 70px;
-  text-align: left;
+h1 {
+  font-family:Didact Gothic , sans-serif;
+  font-size: 65px;
+  text-align: center;
   color: white;
+  font-weight: lighter;
 
 }
 
 
-#text {
-  text-align: left;
+p {
+  text-align:center;
   font-size: 30px;
-  font-family: Barlow, sans-serif;
-  color: white;
-
-  padding-top:20px;
+  font-family:Didact Gothic, sans-serif;
+  color: #666;
+  padding-top:10px;
 }
 
 ul {
-font-size: 20px;
-font-family:Barlow, sans-serif;
+font-size: 25px;
+font-family:Didact Gothic, sans-serif;
 list-style-type: none;
 overflow: hidden;
 color: white;
@@ -82,19 +82,17 @@ margin-top: 0px;
 }
 
 li {
-float: left;
+display: inline-block;
 }
 
 li a {
 display: block;
 color: white;
 text-align: center;
-padding: 14px 16px;
+padding: 0px 25px;
 text-decoration: none;
 }
 
 li a:hover {
 background-color: darkolivegreen;
 }
-
- 
