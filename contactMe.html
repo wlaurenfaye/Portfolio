@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="contactMe.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <script src="contactMe.js" defer></script>
     <title>Contact Me </title>
 
   </head>
@@ -15,5 +16,36 @@
       <li><a href= "newcv.html">Curriculum Vitae</a></li>
       <li><a href= "contactMe.html">Contact Me</a></li>
     </ul>
-    <h1> Contact Me</h1>
+    <body>
+
+
+    <div class="header">
+      <h1>Contact Page</h1>
+    </div>
+    <br>
+
+    <form class="form" action="#">
+      <p>
+        Press the start button to begin video recording. You can have upto 15
+        seconds to record your message and you can stop the video by clicking the
+        stop button. Press the download button to download the
+        video.
+      </p>
+
+
+      <div id="startButton" class="button">Start</div>
+      <div id="stopButton" class="button">Stop</div>
+      <h2>Preview</h2>
+      <video id="preview" autoplay muted></video>
+
+      <h2>Viewing</h2>
+      <video id="viewing" controls></video>
+      <div class="button"><a id="downloadButton" class="button">Download</a></div>
+
+      <p>
+        To view the video, drag the file in your internet broswer.
+      </p>
+    </form>
+
+
   </body>
