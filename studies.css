@@ -8,8 +8,8 @@ body {
 
 }
 ul {
-font-size: 20px;
-font-family:Barlow, sans-serif;
+font-size: 25px;
+font-family:Didact Gothic, sans-serif;
 list-style-type: none;
 overflow: hidden;
 color: white;
@@ -25,7 +25,7 @@ li a {
 display: block;
 color: white;
 text-align: center;
-padding: 14px 16px;
+padding: 0px 25px;
 text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ li a:hover {
 background-color: darkolivegreen;
 }
 h1 {
-  font-family: Barlow, sans-serif;
+  font-family: Didact Gothic, sans-serif;
   font-size: 60px;
   text-align: center;
   color: white;

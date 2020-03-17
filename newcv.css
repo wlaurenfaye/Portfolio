@@ -1,5 +1,6 @@
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
@@ -50,9 +51,9 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 4em;
+  margin-bottom: 8px;
   text-align: center;
-  height: 500px;
+  height: 45px;
 
 }
 
@@ -227,7 +228,7 @@ footer hr {
 }
 
 
-
+/* Nav */
 #navBar {
 font-size: 25px;
 font-family:  Didact Gothic , sans-serif;
@@ -235,21 +236,22 @@ list-style-type: none;
 overflow: hidden;
 color: white;
 text-decoration: none;
-margin-top: 10px;
-margin-bottom: 10px;
+padding-left: 0px;
 
 
 }
 #navBar li {
   float:left;
+  font-size: 20px;
+
 }
 
-#navBar a {
+#navBar li a {
 display: block;
 color: white;
 text-align: center;
-padding: 0px 25px;
 text-decoration: none;
+padding: 0px 25px;
 
 }
 
