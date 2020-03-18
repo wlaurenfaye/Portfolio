@@ -2,10 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
 }
 body {
   background-color: #111;
-
+overflow: visible;
 }
 ul {
 font-size: 25px;
@@ -38,4 +39,41 @@ h1 {
   text-align: center;
   color: white;
   text-shadow: 5px 5px 10px #333;
+  margin-bottom: 10px;
+}
+p {
+   font-family: Didact Gothic, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   color: #666;
+
+}
+.col-1 {
+  width:33.3333%;
+
+  float: left;
+}
+
+.col-2 {
+  width: 66.666;
+  float: left;
+
+
+}
+
+.col-3{
+  width:100%;
+  float: right;
+}
+
+[class*="col-"] {
+  text-align: center;
+  width: 100%;
+  overflow-y: hidden;
+  height: 100%;
+}
+.container {
+  max-width: 33.333%;
+  margin-right: auto;
+  margin-left: auto;
 }

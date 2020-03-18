@@ -399,3 +399,7 @@ added video/audio form for contactMe page and styled, js not working? also need 
 
 19:19 17/03/2020
 made navBar consistent accross all pages
+
+17:43 18/03/2020
+started projects page
+two project divs to be side by side
