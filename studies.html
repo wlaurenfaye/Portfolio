@@ -15,11 +15,59 @@
     <li><a href= "newcv.html">Curriculum Vitae</a></li>
     <li><a href= "contactMe.html">Contact Me</a></li>
   </ul>
-  <h1> Projects</h1>
-  <div class="container">
-  <div class="col-1"> <p> I am currently a student at Liverpool John Moores University studying undergradute course of Multimedia Computing. This course involves multimedia modules which has so far covered the fundamentals in multimedia and problem solving in multimedia. I also have common computing modules which have so far included introduction to programming in java; computer systems; internet and web technologies and data modelling. </p> </div>
-  <div class="col-2"> <h1> Computer Systems Project </h1>  </div>
+  <header > <h1> Projects</h1> </header>
+  <div class="col-1"> <p> I am currently a student at Liverpool John Moores University studying undergradute course of Multimedia Computing. This course involves multimedia modules which has so far covered the fundamentals in multimedia and problem solving in multimedia. I also have common computing modules which have so far included introduction to programming in java; computer systems; internet and web technologies and data modelling. </p>  </div>
+  <div class="col-2"> <h1> Computer Systems Project </h1>
+    <div class ="slideshowContainer">
+       <div class="mySlides fade">
+         <div class="number">1/3 </div>
+         <img src ="images/1.jpg" style="width:100%">
+         <div class="text">Caption 1 </div>
+       </div>
+       <div class="mySlides fade">
+         <div class="number">2/3 </div>
+         <img src ="images/2.jpg" style="width:100%">
+         <div class="text">Caption 2 </div>
+       </div>
+       <div class="mySlides fade">
+         <div class="number">1/3 </div>
+         <img src="images/me3.jpg" style="width:100%">
+         <div class="text">Caption 3 </div>
+       </div>  </div> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> </div>
   <br>
-  <div class=col-3> </div>
-   </div>
+  <div class=col-3> <h1>Multimedia Project</h1>
+    <div class ="slideshowContainer">
+       <div class="mySlidestwo fade">
+         <div class="number">1/3 </div>
+         <img src ="images/1.jpg" style="width:100%">
+         <div class="text">Caption 1 </div>
+       </div>
+       <div class="mySlidestwo fade">
+         <div class="number">2/3 </div>
+         <img src ="images/2.jpg" style="width:100%">
+         <div class="text">Caption 2 </div>
+       </div>
+       <div class="mySlidestwo fade">
+         <div class="number">1/3 </div>
+         <img src="images/me3.jpg" style="width:100%">
+         <div class="text">Caption 3 </div>
+       </div>  </div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
+  <script>
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+  </script>
+
 </body>

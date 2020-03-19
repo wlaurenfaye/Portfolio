@@ -47,13 +47,10 @@ header {
   background-image: url(images/me3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   margin-bottom: 8px;
   text-align: center;
-  height: 45px;
+  height: 300px;
 
 }
 
@@ -108,17 +105,20 @@ footer hr {
 
 @media screen and (min-width: 50em) {
   header {
-    height: 700px;
+    height: 400px;
   }
 
   header h1 {
     font-size: 3.2em;
-    top: 540px;
+    top: 175px;
+    letter-spacing: 7px;
+
   }
 
   header p {
-    top: 530px;
+    top: 260px;
     font-size: 1.5em;
+    letter-spacing: 7px;
   }
 }
 @media screen and (max-width: 800px) {

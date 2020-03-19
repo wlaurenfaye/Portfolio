@@ -403,3 +403,6 @@ made navBar consistent accross all pages
 17:43 18/03/2020
 started projects page
 two project divs to be side by side
+
+20:29 19/03/2020
+project page mostly designed, compatability working on and slightly redesigned cv page
