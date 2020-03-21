@@ -406,3 +406,6 @@ two project divs to be side by side
 
 20:29 19/03/2020
 project page mostly designed, compatability working on and slightly redesigned cv page
+
+19:40 21/03/2020
+putting content into the projects page
