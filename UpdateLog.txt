@@ -409,3 +409,5 @@ project page mostly designed, compatability working on and slightly redesigned c
 
 19:40 21/03/2020
 putting content into the projects page
+23:19 22/03/2020
+submitted portfolio for coursework, not actually finished tho need collapsable nav bar and to fix responsiveness

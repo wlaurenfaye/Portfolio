@@ -6,7 +6,7 @@
 }
 body {
   background-color: #111;
-overflow: visible;
+  overflow: visible;
 }
 ul {
 font-size: 20px;
@@ -71,13 +71,14 @@ p {
   width: 100%;
   overflow-y: hidden;
   height: 100%;
+  margin-top: 15px;
 }
 header h1 {
   color: white;
   font-size: 50px;
   text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
   position: relative;
-  ;
+  margin:0px;
   letter-spacing: 10px;
 }
 
@@ -87,25 +88,33 @@ header {
   background-position: center center;
   background-size: cover;
   margin-bottom: 8px;
-  text-align: center;
   margin-top:10px;
   margin-bottom: 10px;
+  min-height:300px;
 
 }
+
+
 @media screen and (min-width: 50em) {
-   header {
-     height: 400px;
-    }
-    header h1 {
-      top: 300px
-    }
+  header {
+    height: 400px;
   }
-    @media screen and (max-width: 800px) {
-      body {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-      }
-    }
-    @media screen and (max-width: 800px) {
+}
+
+  header h1 {
+    font-size: 3.2em;
+    top: 300px;
+  }
+    header p {
+      top: 260px;
+      font-size: 1.5em;
+      letter-spacing: 7px;
+
+  }
+
+
+}
+    @media screen and (max-width: 50em) {
       ul, li, li a {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       }
@@ -116,8 +125,7 @@ header {
   float: left;
   width: 20%;
   padding: 5px;
-  max-height: 300px;
-  min-height: 300px;
+
 
 }
 
@@ -135,4 +143,12 @@ figcaption {
   font-family: Didact Gothic, sans-serif;
   font-size: 15px;
   color: #666;
+}
+button {
+  background-color: darkolivegreen;
+  font-family: Didact Gothic, sans-serif;
+  color: white;
+  padding: 5px;
+  border:none;
+
 }

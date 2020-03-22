@@ -58,11 +58,10 @@ header h1 {
   color: white;
   font-size: 2em;
   margin: 0;
-  letter-spacing: 1px;
+  letter-spacing: 10px;
   opacity: 1;
   text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
   position: relative;
-  top: 370px;
   font-weight: 700;
 }
 
@@ -110,16 +109,16 @@ footer hr {
 
   header h1 {
     font-size: 3.2em;
-    top: 175px;
-    letter-spacing: 7px;
+    top: 300px;
+  }
+    header p {
+      top: 260px;
+      font-size: 1.5em;
+      letter-spacing: 7px;
 
   }
 
-  header p {
-    top: 260px;
-    font-size: 1.5em;
-    letter-spacing: 7px;
-  }
+
 }
 @media screen and (max-width: 800px) {
   body {

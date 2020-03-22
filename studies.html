@@ -4,10 +4,15 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="studies.css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/articulate.js"></script>
+    <script src="js/speechPauseResume.js"></script>
     <title>Studies</title>
 
   </head>
 <body>
+
+
   <ul>
     <li><a href= "index.html">Home</a></li>
     <li><a href= "aboutme.html">About Me</a></li>
@@ -15,13 +20,69 @@
     <li><a href= "newcv.html">Curriculum Vitae</a></li>
     <li><a href= "contactMe.html">Contact Me</a></li>
   </ul>
-  <header > <h1> Projects</h1> </header>
-  <div class="col-1"> <p> I am currently a student at Liverpool John Moores University studying undergradute course of Multimedia Computing. This course involves multimedia modules which has so far covered the fundamentals in multimedia and problem solving in multimedia. I also have common computing modules which have so far included introduction to programming in java; computer systems; internet and web technologies and data modelling. </p>  </div>
-  <div class="col-2"> <h1> Computer Systems Project </h1>
-   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> </div>
-  <br>
-  <div class=col-3> <h1>Multimedia Project</h1>
-     <p>In the last semester my “Fundamentals in Multimedia” module has done just that in laying the fundamental knowledge needed for my development as a multimedia development. Having very little to no experience in Adobe’s Photoshop and Illustrator software’s, the lectures and tutorials I have taken part in this semester have given me a range of skills and knowledge in this area that I am keen to develop further. Adobe Photoshop is a vital piece of software in any media-based career, which has been used by developers for 15 years  with such a diverse set of abilities it can be used from editing photographs to creating company logos. For the module coursework I produced a portfolio with examples using the skills of photoshop and illustrator I had learned, including photo editing; icon creating; 3D object creation and some simple 2D animation. </p></div>
+
+  <article class="speech">
+  <header>
+    <h1> Projects</h1>
+ </header>
+
+ <button onclick="speak('article')">Speech</button>
+ <button onclick="pause()">Pause</button>
+ <button onclick="resume()">Continue</button>
+ <button onclick="stop()">End</button>
+  <div class="col-1">
+    <p>
+       I am currently a student at Liverpool John Moores University studying undergradute course of Multimedia Computing. This course involves multimedia modules which has so far covered the fundamentals in multimedia and problem solving in multimedia. I also have common computing modules which have so far included introduction to programming in java; computer systems; internet and web technologies and data modelling.
+    </p>
+  </div>
+  <div class="col-2">
+
+      <h1> Computer Systems Project </h1>
+      <p>
+        For this project in my first semester I used Digital Works 95 to produce a circuit which would use an LED output to write my student ID number. It included a fully labelled diagram of the circuit which has been drawn using Digital Works 95, the Boolean equations for the circuit and n extended truth table. This was a very practical based module, I learned a lot about binary code, circuits and equations. My mark was 91/100.
+    </p>
+  </div>
+</article>
+   <div class ="row">
+     <div class="imgCol">
+       <figure>
+           <img src="images/computerSystems.jpg" style="width:100%">
+           <figcaption>The circuit </figcaption>
+       </figure>
+     </div>
+     <div class="imgCol">
+       <figure>
+         <img src="images/truthTable.jpg" style="width:100%">
+         <figcaption> First truth table </figcaption>
+       </figure>
+     </div>
+     <div class="imgCol">
+       <figure>
+         <img src="images/LEDEquations.jpg" style="width:100%">
+         <figcaption> Boolean equations for LED</figcaption>
+       </figure>
+     </div>
+     <div class ="imgCol">
+       <figure>
+         <img src="images/extendedTruthTable.jpg" style="width:100%">
+         <figcaption>Extended truth table</figcaption>
+       </figure>
+     </div>
+     <div class ="imgCol">
+       <figure>
+         <img src="images/binary.jpg" style="width:100%">
+         <figcaption> Binary output </figcaption>
+       </figure>
+     </div>
+   </div>
+
+<article class="speech">
+  <div class="col-3"> <h1>Multimedia Project</h1>
+     <p>
+       In the last semester my “Fundamentals in Multimedia” module has done just that in laying the fundamental knowledge needed for my development as a multimedia development. Having very little to no experience in Adobe’s Photoshop and Illustrator software’s, the lectures and tutorials I have taken part in this semester have given me a range of skills and knowledge in this area that I am keen to develop further. Adobe Photoshop is a vital piece of software in any media-based career, which has been used by developers for 15 years  with such a diverse set of abilities it can be used from editing photographs to creating company logos. For the module coursework I produced a portfolio with examples using the skills of photoshop and illustrator I had learned, including photo editing; icon creating; 3D object creation and some simple 2D animation.
+     </p>
+   </div>
+</article>
   <div class ="row">
     <div class="imgCol">
       <figure>
@@ -55,6 +116,12 @@
     </div>
 
   </div>
+
+
+
+
+
+
 
 
 </body>
