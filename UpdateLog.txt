@@ -411,3 +411,10 @@ project page mostly designed, compatability working on and slightly redesigned c
 putting content into the projects page
 23:19 22/03/2020
 submitted portfolio for coursework, not actually finished tho need collapsable nav bar and to fix responsiveness
+
+20:50 26/03/2020
+--------------------------------- STARTED JAVASCRIPT W3SCHOOLS -------------------------------------------------------------------
+document.getElementById("").innerHTML = "hello javascript"; 
+-finds HTML element by #id and changes the content of the element to whatever is in double or single quotes
+
+-can also change the src of the element with document.getElementById("").src=""
