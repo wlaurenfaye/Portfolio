@@ -1,1 +1,3 @@
-document.getElementById("title").innerHTML = "Hello Javascript";
+function myFunction() {
+  document.getElementById('title').innerHTML="i have changed this :o";
+}

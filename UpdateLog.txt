@@ -418,3 +418,10 @@ document.getElementById("").innerHTML = "hello javascript";
 -finds HTML element by #id and changes the content of the element to whatever is in double or single quotes
 
 -can also change the src of the element with document.getElementById("").src=""
+
+20:19 27/03/2020
+
+can use to style elements with .style e.g. .style.fontSize="90px";
+or display e.g. .style.display="none" / "block";
+successfully linked external js file
+
