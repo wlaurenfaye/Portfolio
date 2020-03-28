@@ -425,3 +425,29 @@ can use to style elements with .style e.g. .style.fontSize="90px";
 or display e.g. .style.display="none" / "block";
 successfully linked external js file
 
+17:54 28/03/2020
+
+"document.write('')" writes content but eliminated any html before
+ window.alert('') gives window alert with content
+same as java in declaring var's at the begining, statements are separated with ; - ran in order written
+js ignores spaces- use to make code clearer
+code blocks in {} -  usually for functions e.g. myFunction()
+
+--- key words ------
+break = terminates switch or loop
+continue= jumps out of a loop and continues at the top
+debugger= stops execution and calls for debugging function
+do ... while= executes a block of statements and repeats while a condition is true
+for = marks a block of statements to be executed as long as a condition is true
+function= declares a function
+if ... else = marks a block of statements to be executed depending on a condition
+return = exit function
+switch = block of statements to be executed depending on different cases
+try ... catch = implements error handling to a block of statements
+var = declares a variable
+--------------------------
+fixed value is a literal, varing value is a variable
+string is text within '' / ""
+computation = evaluation
+identifier = a name for a variable/keyword/function/ label and can not start with a number, only a $ / letter/ _ and are case sensitive
+- can only be used in subtraction, use camel case
