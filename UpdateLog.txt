@@ -451,3 +451,11 @@ string is text within '' / ""
 computation = evaluation
 identifier = a name for a variable/keyword/function/ label and can not start with a number, only a $ / letter/ _ and are case sensitive
 - can only be used in subtraction, use camel case
+
+18:23 01/04/2020
+multiple var/s can be declared in one line or can span multiple lines using ,
+var/s declared without an assigned value are 'undefined'
+$ is treated as a letter so $$$ could be a var name
+in j query $ means select
+
+
