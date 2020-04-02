@@ -458,4 +458,27 @@ var/s declared without an assigned value are 'undefined'
 $ is treated as a letter so $$$ could be a var name
 in j query $ means select
 
+15:41 02/04/2020
+if the first operand is a string, all operands in the line will be treated as strings
+booleans can only have two values: true or false eg (x==y) // returns either true or false
+arrays are written in [] and separated by , starting at 0 like java
+objects in {} eg var person = {firstName:"lauren",lastNAme:"williams", age:20, eyeColour:"hazel"}; = person has those 4 properties
+typeof operator returns the type of a variable or an expression e.g. typeof "" = string
+empty an object by setting it to null, but object will still have its type
+----------assignment operators -----------------
+// used to assign values to vars //
+
+= // same as
++= // e.g. x += y //same as x = x + y
+-= // e.g. x -= y // same as x = x - y
+*= // e.g. x *= y // same as x = x * y
+/= // e.g. x /= y // same as x = x / y
+%= // e.g. x %= y // same as x = x % y
+
+
+
+
+
+
+
 
