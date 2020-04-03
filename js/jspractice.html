@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title> Javascript practice </title>
-    <script src="practice.js"></script>
+
   </head>
   <body>
     <div>
       <h1 id="title">
 
       </h1>
-      <button onclick="myFunction()">
-         change text
-      </button>
+
     </div>
     <div>
       <img id="cat"src="happyCat.jpg">
@@ -25,6 +23,25 @@
      <button onclick="document.write('loser')"> what am i </button>
 
     </div>
+    <p id= "eg"> </p>
+
+  <script>
+
+     var x = myFunction(5 , 6);
+     document.getElementById("eg").innerHTML= x;
+     function myFunction(a , b) {
+
+          return a * b;
+
+
+
+
+     }
+
+
+
+
+  </script>
 
 
 
