@@ -1,0 +1,11 @@
+* {
+  overflow: hidden;
+
+}
+button {
+
+padding: 0.5rem;
+border-radius: 50%;
+margin: 20% 50% 50% 50%;
+
+}

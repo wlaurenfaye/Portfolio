@@ -1,4 +1,4 @@
-LAUREN F W -- UPDATE LOG
+18:04 07/04/202018:42 07/04/2020LAUREN F W -- UPDATE LOG
 
 12/09/2019 
 Today I leanred how to input- 
@@ -488,6 +488,11 @@ e.g.     var x = myFunction (5 , 6); // function is called, return value will en
 	 function myFunction(a , b) {
 		return a * b;		function returns the product of a and b
 			}
+18:45 07/04/2020
+onmouseover in html 
+trying new projects? :youtube.com/watch?v=Kp3HGwlXwCk
+document.body.style
+re reading notes
 
 
 

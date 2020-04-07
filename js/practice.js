@@ -1,5 +1,6 @@
-function myFunction() {
-  document.getElementById('title').innerHTML="i have changed this :o";
-}
+function
 
-window.alert("loren wants mochi");
+
+myFunction() {
+document.body.style.background="pink";
+}
