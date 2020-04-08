@@ -494,6 +494,12 @@ trying new projects? :youtube.com/watch?v=Kp3HGwlXwCk
 document.body.style
 re reading notes
 
+20:39 08/04/2020 
+youtube project:
+
+Uncaught TypeError: Cannot read property 'addEventListener' of null
+    at practice.js:7
+
 
 
 

@@ -1,11 +1,26 @@
-* {
+body {
   overflow: hidden;
+align-items: center;
+min-height:100vh;
+justify-content: center;
+display: flex;
 
 }
-button {
+.colorBtn {
+  padding: 0.25rem 0.5rem;
+  border: 3px solid purple;
+  border-radius: 10px;
+  background: pink;
+  font-size:0.85rem;
+  outline: none;
+  font-size:1.5rem;
+  cursor: pointer;
 
-padding: 0.5rem;
-border-radius: 50%;
-margin: 20% 50% 50% 50%;
 
+
+
+}
+.colorBtn:hover {
+
+  background: purple;
 }
