@@ -500,6 +500,9 @@ youtube project:
 Uncaught TypeError: Cannot read property 'addEventListener' of null
     at practice.js:7
 
+20:13 09/04/2020
+uncaught TypeError: Cannot read property 'addEventListener' of null
+
 
 
 
