@@ -504,7 +504,9 @@ Uncaught TypeError: Cannot read property 'addEventListener' of null
 uncaught TypeError: Cannot read property 'addEventListener' of null
 
 
-
+13:27 25/04/2020
+https://javascript.info/type-conversions 
+re learning type conversions with new website
 
 
 
