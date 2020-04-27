@@ -508,8 +508,53 @@ uncaught TypeError: Cannot read property 'addEventListener' of null
 https://javascript.info/type-conversions 
 re learning type conversions with new website
 
+13:13 27/04/2020
+...
+let apples = "2";
+let oranges = "3";
+
+alert( apples + oranges ); // "23", the binary plus concatenates strings
 
 
+let apples = "2";
+let oranges = "3";
 
+// both values converted to numbers before the binary plus
+alert( +apples + +oranges ); // 5
 
+// the longer variant
+// alert( Number(apples) + Number(oranges) ); // 5
 
+Precedence	Name	Sign
+…	…	…
+17	unary plus	+
+17	unary negation	-
+15	multiplication	*
+15	division	/
+13	addition	+
+13	subtraction	-
+…	…	…
+3	assignment	=
+…	…	…
+
+The result of a % b is the remainder of the integer division of a by b
+
+alert( 2 ** 2 ); // 4  (2 * 2)
+alert( 2 ** 3 ); // 8  (2 * 2 * 2)
+alert( 2 ** 4 ); // 16 (2 * 2 * 2 * 2)
+
+alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root, that's maths)
+alert( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+
+Increment ++ increases a variable by 1
+Decrement -- decreases a variable by 1
+Increment/decrement can only be applied to variables
+
+When the operator goes after the variable, it is in “postfix form”: counter++.
+The “prefix form” is when the operator goes before the variable: ++counter.
+Prefix will produce a new value in the variable 
+postfix will also increments counter but returns the old value (prior to increment)
+
+++/-- can be used inside expressions as well. Their precedence is higher than most other arithmetical operations.
+
+upto: bitwise operators
