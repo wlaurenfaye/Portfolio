@@ -558,3 +558,48 @@ postfix will also increments counter but returns the old value (prior to increme
 ++/-- can be used inside expressions as well. Their precedence is higher than most other arithmetical operations.
 
 upto: bitwise operators
+
+19:01 02/05/2020
+started new project to help motivation!
+todo list, styled so far, to add js next session 
+https://www.youtube.com/watch?v=Ttf3CEsEwMQ
+
+
+17:20 04/05/2020
+add list item function done in js, styling next sesh
+https://www.youtube.com/watch?v=Ttf3CEsEwMQ
+> appending to child
+> adding class list 
+> creating element
+
+11:10 05/05/2020
+styled list
+added function to add todo item
+added function to delete button
+https://www.youtube.com/watch?v=Ttf3CEsEwMQ
+
+11:06 06/05/2020
+added checked function with animations by adding a class and event listener then removing the item 
+added a select filter dropdown and styled, to add function tomorrowe
+
+12:47 07/05/2020
+adding most of the filter functionality ran into an error, found it was because i left a space in betwen the <ul> </ul> so js couldnt define the variable and thought it was text >:(
+used .childNodes and forEach(function(todo){
+}
+
+12:26 08/05/2020
+finished option function
+create local storage, saving to local storage
+todos.splices
+localStorage.setItem("todos",JSON.stringify(todos));
+using arrays
+need to figure out more about local storage and server side stuffs
+tutorial complete
+
+12:04 11/05/2020 
+started working on version 2 of my portfolio to add js
+followed smooth scroll tutorial successfully
+
+14:53 12/05/2020
+followed typewriter tutorial for v1 portfolio
+figured how to make it one line not separate words
