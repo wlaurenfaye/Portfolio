@@ -11,6 +11,20 @@ body {
   background-color: #111;
   background-repeat: no-repeat;
 }
+.box1{
+  height: 100vh;
+  display: block /* was flex*/;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.box2{
+  height: 100vh;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
 header {
   background-color: #999;
@@ -36,7 +50,7 @@ header {
 
 p {
   text-align:center;
-  font-size: 30px;
+  font-size: 20px;
   font-family:Didact Gothic, sans-serif;
   color: #666;
   padding-top:10px;
@@ -76,7 +90,7 @@ padding-top: 0px;
 
 h1 {
   font-family:Didact Gothic , sans-serif;
-  font-size: 65px;
+  font-size: 50px;
   text-align: center;
   color: white;
   font-weight: lighter;
@@ -86,19 +100,74 @@ h1 {
   margin-left: 10px;
 
 }
+
 .typing::after{
   content: "";
-  position: absolute;
   height: 70%;
-  width: 1px;
+  width: 0.5px;
   top: 9px;
   border-right: 3px solid white;
   right: -5px;
   animation: blink 1s infinite ease;
 }
 
-div {
-  display: flex;
+
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+nav  {
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5.5vh;
+  padding-top: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+nav a {
+  text-decoration: none;
+  color: #fefefa;
+}
+.nav-links{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    float: right;
+    margin-top: 2px;
+    font-size: 2.5vh;
+    }
+
+li:hover{
+  background-color: #4D8963
+}
+
+.logo {
+  color: #fefefa;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  float: left;
+  font-size: 1.5rem;
+
+}
+.burger div{
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  margin: 8px;
+}
+.burger {
+  float: right;
+  display: none;
+  cursor: pointer;
 }
 
 @keyframes blink {
