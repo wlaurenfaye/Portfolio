@@ -94,6 +94,7 @@ h1 {
   text-align: center;
   color: white;
   font-weight: lighter;
+  padding-top: 5%;
 }
 .typing {
   position: relative;
@@ -148,6 +149,14 @@ nav a {
 
 li:hover{
   background-color: #4D8963
+}
+
+.box3{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .logo {
